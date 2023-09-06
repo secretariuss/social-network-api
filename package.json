@@ -1,20 +1,28 @@
 {
-  "name": "28-Stu_Mini-Project",
-  "version": "1.0.1",
-  "description": "Mongoose back-end project - Main",
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "dev": "nodemon index",
-    "seed": "node utils/seed",
-    "heroku-postbuild": "node utils/seed.js"
+    "watch": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/secretariuss/social-network-api"
+  },
+  "keywords": [],
+  "author": "Ettaho",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^7.0.2"
+    "express": "^4.18.2",
+    "moment": "^2.29.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^7.3.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.9"
+    "nodemon": "^2.0.15",
+    "prettier": "^3.0.0"
   }
 }
