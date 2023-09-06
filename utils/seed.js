@@ -3,7 +3,6 @@ const mongoose = require("mongoose");
 
 const connection = require("../config/connection");
 
-// Seed data
 const users = [
   {
     username: "Alex",
