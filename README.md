@@ -46,16 +46,16 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
   run insomnia or postman application and put routes from example:
   
     GET/ POST routes:
-    `http://localhost:3001/api/users`
-    `http://localhost:3001/api/thoughts`
+    http://localhost:3001/api/users
+    http://localhost:3001/api/thoughts
 
     PUT/DELETE routes:
-    `http://localhost:3001/api/users/:id`
-    `http://localhost:3001/api/thoughts/:id`
+    http://localhost:3001/api/users/:id
+    http://localhost:3001/api/thoughts/:id
 
     POST/ DELETE routes:
-    `http://localhost:3001/api/users/:id/friends/:friendId`
-    `http://localhost:3001/api/thoughts/:id/reactionsId`
+    http://localhost:3001/api/users/:id/friends/:friendId
+    http://localhost:3001/api/thoughts/:id/reactionsId
 
   ## How to Contribute
   [Contributor Covenant](https://www.contributor-covenant.org/)  
